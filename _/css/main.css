@@ -116,11 +116,13 @@ nav {
   transition: all 0.2s ease; }
   @media (min-width: 900px) {
     nav {
-      width: 90vw;
+      margin: 0 auto;
+      width: 580px;
       height: 75px;
       font-size: .8rem;
       font-weight: 400;
-      padding: 13px 0 0 0; } }
+      padding: 13px 0 0 0;
+      float: right; } }
   nav a {
     color: white; }
 
@@ -155,8 +157,27 @@ nav {
       height: 5px;
       margin-left: 5px; } }
 
+@media (min-width: 900px) {
+  #contact-menu {
+    position: absolute;
+    color: #58595b;
+    background-color: white; }
+    #contact-menu a {
+      color: #58595b; } }
+
+@media (min-width: 900px) {
+  #about-menu {
+    position: absolute;
+    margin-left: 132px;
+    color: #58595b;
+    background-color: white;
+    border: 1px solid white; }
+    #about-menu a {
+      color: #58595b; } }
+
 .nav-second-tier {
   margin-top: 10px;
+  margin-bottom: 20px;
   text-transform: none;
   letter-spacing: 1px;
   font-size: 1rem;
@@ -165,6 +186,13 @@ nav {
   .nav-second-tier li {
     margin: 0 0 10px 0;
     padding: 0; }
+  @media (min-width: 900px) {
+    .nav-second-tier {
+      font-size: .8rem;
+      font-weight: 500;
+      margin-top: 0px;
+      margin-bottom: 0;
+      padding: 20px 20px 10px 20px; } }
 
 .navbar-toggle {
   /*---- HAMBURGER MENU ----*/
